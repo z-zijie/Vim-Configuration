@@ -6,6 +6,7 @@ set wrap
 set showcmd
 set wildmenu
 set tabstop=4
+set shiftwidth=4
 
 "set hlsearch
 "set incsearch
@@ -81,7 +82,7 @@ let g:mkdp_page_title = '「${name}」'
 
 " =============================
 " === Compile and Run C/C++ ===
-" map <F8> :w <CR> :!gcc % -o %< && ./%< <CR>
+map <F8> :w <CR> :!g++ % -o %< && ./%< <CR>
 " =============================
 
 
