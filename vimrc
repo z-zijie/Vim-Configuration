@@ -234,4 +234,4 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " ================
 
-nnoremap tt :CocCommand explorer<CR>
+:nmap <space>e :CocCommand explorer<CR>
