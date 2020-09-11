@@ -21,6 +21,10 @@ map R :source $MYVIMRC<CR>
 let g:rehash256 = 1
 let g:molokai_original = 1
 
+" vim cursor shape
+let &t_EI .= "\<Esc>[2 q"
+let &t_SI .= "\<Esc>[2 q"
+
 
 " ============================
 " ========= vim-plug =========
