@@ -10,7 +10,7 @@ This repo is my personal vim configuration.
 2. Install [nodejs](https://nodejs.org/en/download/) >= 10.12:  
 	`curl -sL install-node.now.sh/lts | bash`
 3. `sudo apt install clangd`
-4. Download `vimrc` into folder `~/.vim/`
+4. Download `vimrc` into folder `~/.vim/`  
 	`curl -fLo ~/.vim/vimrc --create-dirs \
 	https://raw.githubusercontent.com/z-zijie/Vim-Configuration/master/vimrc`
 5. open`vim`, run`:PlugInstall`
