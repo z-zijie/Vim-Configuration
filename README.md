@@ -10,4 +10,4 @@ This repo is my personal vim configuration.
 2. Install [nodejs](https://nodejs.org/en/download/) >= 10.12:  
 	`curl -sL install-node.now.sh/lts | bash`
 3. `sudo apt install clangd`
-4. open `vim`, `:PlugInstall`
+4. open`vim`, run`:PlugInstall`
