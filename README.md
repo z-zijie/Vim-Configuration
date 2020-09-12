@@ -4,12 +4,9 @@ This repo is my personal vim configuration.
 [Vim Cheat Sheet](https://vim.rtorr.com/)
 
 ## Install
+* Install [vim-plug](https://github.com/junegunn/vim-plug)  
+	`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+* Install [nodejs](https://nodejs.org/en/download/) >= 10.12:  
+	`curl -sL install-node.now.sh/lts | bash`
 
-```sh
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-Open vim
-Run `:PlugInstall`
-Restart `Vim`
