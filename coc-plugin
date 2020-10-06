@@ -1,0 +1,8 @@
+" === coc.nvim ===
+
+let g:coc_global_extensions = [
+		\ 'coc-clangd',
+		\ 'coc-markdownlint',
+		\ 'coc-python',
+	    \ 'coc-fzf-preview',
+		\ 'coc-tsserver']

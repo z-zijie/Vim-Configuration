@@ -2,31 +2,18 @@
 
 This repo is my personal vim configuration.
 
-[Vim Cheat Sheet](https://vim.rtorr.com/)
+If you are new to **Vim**, please checkout [Vim Cheat Sheet](https://vim.rtorr.com/).
+
+## Required Package Components
+* nodejs
+* yarn
+* [vim-plug](https://github.com/junegunn/vim-plug)
+* clang *clangd is required in coc-vim clang*
 
 ## Install
-1. Install [vim-plug](https://github.com/junegunn/vim-plug)  
-
-```sh
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-2. Install [nodejs](https://nodejs.org/en/download/) >= 10.12:  
-```sh
-curl -sL install-node.now.sh/lts | bash
-```
-
-3.
-```sh
-sudo apt install clangd
-```
-
-4. Download `vimrc` into folder `~/.vim/`  
-
+1. Download [vimrc](https://raw.githubusercontent.com/z-zijie/Vim-Configuration/master/vimrc) into folder `~/.vim/`
 ```sh
 curl -fLo ~/.vim/vimrc --create-dirs \
     https://raw.githubusercontent.com/z-zijie/Vim-Configuration/master/vimrc
 ```
-
-5. open`vim`, run`:PlugInstall`
+2. Start `vim` in Terminal, run `:PlugInstall`

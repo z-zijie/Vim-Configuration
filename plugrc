@@ -1,0 +1,12 @@
+" ============================
+" ========= vim-plug =========
+" ============================
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+Plug 'bling/vim-bufferline'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'mg979/vim-xtabline'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+" ===    End of VimPlug    ===
