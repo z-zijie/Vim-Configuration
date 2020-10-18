@@ -13,7 +13,10 @@ If you are new to **Vim**, please checkout [Vim Cheat Sheet](https://vim.rtorr.c
 
 ## Install
 
-`git clone https://github.com/z-zijie/Vim-Configuration.git`
-
+```sh
+cd ~
+git clone https://github.com/z-zijie/Vim-Configuration.git
+mv ~/Vim-Configuration ~/.vim
+```
 
 Start `vim` in Terminal, run `:PlugInstall`
