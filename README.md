@@ -17,6 +17,8 @@ If you are new to **Vim**, please checkout [Vim Cheat Sheet](https://vim.rtorr.c
 cd ~
 git clone https://github.com/z-zijie/Vim-Configuration.git
 mv ~/Vim-Configuration ~/.vim
+sudo apt install nodejs npm
+npm install yarn
 ```
 
 Start `vim` in Terminal, run `:PlugInstall`
